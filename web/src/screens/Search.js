@@ -41,8 +41,8 @@ function Search({ api }) {
           onChange={setSite}
           options={[
             { name: "1337x", value: "1337x" },
-            { name: "Limetorrents", value: "limetorrent" },
-            { name: "Piratebay", value: "piratebay" }
+            { name: "Limetorrents", value: "1337x" },
+            { name: "Piratebay", value: "1337x" }
           ]}
           required
         />
@@ -50,7 +50,7 @@ function Search({ api }) {
           id="term"
           name="term"
           label="Search Term"
-          placeholder="The forgotten army, Flames..."
+          placeholder="search..."
           value={term}
           onChange={setTerm}
           required
